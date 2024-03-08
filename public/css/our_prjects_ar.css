@@ -1,0 +1,357 @@
+.single-list-topics-content {
+    background: none !important;
+    box-shadow: none !important;
+    margin-top: -77px !important;
+    flex-direction: row !important;
+    align-items: center;
+    gap: 10px !important;
+}
+
+.Icones-style {
+    text-align: left;
+    font-size: 14px !important;
+    color: white !important;
+    margin-top: 25px !important;
+
+
+}
+
+.single-list-topics-icon {
+    margin-top: 17px !important;
+}
+
+.card-slider {
+    margin-top: -41px;
+    text-align: start !important;
+}
+
+.single-list-topics-icon .bb {
+    filter: invert(100%) sepia(0%) saturate(0) hue-rotate(0deg) brightness(800%) contrast(100%) !important;
+}
+
+.list-topics-content {
+    position: relative;
+    top: -108px;
+    z-index: 1;
+}
+
+
+.sector-sub-w {
+    position: relative;
+    top: -99px;
+    left: -389px;
+    font-size: 28px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.project-hero-text {
+    position: relative;
+    top: -259px;
+    left: -385px;
+    font-size: 68px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card {
+    width: 200px;
+    height: 98px !important;
+    margin: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.frame3 .div-2{
+    padding-bottom: 0 !important;
+}
+
+@media only screen and (min-width: 768px) {
+    .card-slider {
+        display: flex;
+        animation: scroll 16s linear infinite !important;
+    }
+}
+
+/* Main Part */
+
+.AllProjects {
+    padding-bottom: 50px;
+}
+
+.educationPart {
+    display: flex;
+    flex-direction: row;
+    padding: 43px;
+    background-color: #d8053a;
+    justify-content: space-between !important;
+    align-items: center;
+    margin-top: -79px !important;
+    height: 43px !important;
+
+}
+
+
+.our-project-top-part {
+    position: relative;
+    top: -100px;
+}
+
+.our_project_nav {
+    border-bottom: 1px solid white;
+}
+
+.text_2 h2 {
+    font-size: 30px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.leftPart_project {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.openIcone i {
+    font-size: 30px;
+    color: white;
+}
+
+
+/* Education Compain Css Start */
+
+
+#angle-down {
+    display: inline;
+    transition: transform 0.3s ease-in-out;
+    /* Optional: Add a smooth transition effect */
+}
+
+.frame3 .div-3 {
+    display: inline-flex;
+    flex-direction: column;
+    height: 721px;
+    align-items: flex-start;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: #ffffff;
+    box-shadow: var(--shadow);
+    width: 366px !important;
+}
+
+.frame3 .image{
+    height: 206px !important;
+}
+
+.frame3 .text-wrapper-3{
+    font-size: 20px;
+}
+
+
+.frame3 .div-5 {
+    display: flex;
+    flex-direction: column;
+    width: 324px;
+    align-items: flex-start;
+    gap: 10px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.frame3 .div-6{
+    margin-top: 47px;
+}
+
+
+
+.div-3 {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
+    /* Adjust the shadow values as needed */
+    transition: box-shadow 0.3s ease-in-out !important;
+    /* Optional: Add a smooth transition effect */
+    padding-right: 0 !important;
+}
+
+.div-8 {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
+    /* Adjust the shadow values as needed */
+    transition: box-shadow 0.3s ease-in-out !important;
+    /* Optional: Add a smooth transition effect */
+    padding-right: 0 !important;
+    width: 366px !important;
+}
+
+.Postlar {
+    gap: 20px !important;
+    transform: none !important;
+}
+
+.frame3 {
+    padding: 25px !important;
+}
+
+
+
+@keyframes slideaway {
+    from {
+        display: block;
+    }
+
+    to {
+        transform: translateY(40px);
+        opacity: 0;
+    }
+}
+
+#EducationProjects {
+    display: none;
+    animation: slideaway 500ms;
+}
+
+/* Education Compain Css END */
+
+
+/* Food Compain Css Start */
+#FoodProjects {
+    display: none;
+    animation: slideaway 500ms;
+}
+
+#angle-down2 {
+    display: inline;
+    transition: transform 0.3s ease-in-out;
+    /* Optional: Add a smooth transition effect */
+}
+
+
+.FoodPart {
+    display: flex;
+    flex-direction: row;
+    padding: 43px;
+    background-color: #006697;
+    justify-content: space-between !important;
+    align-items: center;
+    margin-top: 43px !important;
+    height: 43px !important;
+}
+
+.leftPart_project {
+    margin-left: -10px !important;
+}
+
+/* Food Compain Css End */
+
+
+/* Non-Food Compain Css Start */
+#Non_FoodProjects {
+    display: none;
+    animation: slideaway 500ms;
+    padding-bottom: 50px;
+}
+
+#angle-down2 {
+    display: inline;
+    transition: transform 0.3s ease-in-out;
+    /* Optional: Add a smooth transition effect */
+}
+
+
+.Non_FoodPart {
+    display: flex;
+    flex-direction: row;
+    padding: 43px;
+    background-color: #FF6634;
+    justify-content: space-between !important;
+    align-items: center;
+    margin-top: 43px !important;
+    height: 43px !important;
+}
+
+.leftPart_project {
+    margin-left: -10px !important;
+}
+
+/* Non-Food Compain Css End */
+
+/* Phone Screen Start */
+
+@media screen and (max-width: 768px) {
+    .project-hero-text {
+        position: relative;
+        top: -38px !important;
+        left: 11px !important;
+        font-size: 28px;
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .sector-sub-w {
+        position: relative;
+        top: -30px !important;
+        left: 11px !important;
+        font-size: 15px;
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .hero_image{
+        position: relative;
+        top: 0!important;
+        left: 0!important;
+    }
+
+    .hero_image img{
+        position: relative;
+        height: 200px;
+    }
+
+    #list-topics {
+        margin-top: -111px !important;
+    }
+
+    .list-topics-content {
+        position: relative;
+        top: 1px;
+        z-index: 1;
+        left: 25px;
+    }
+
+    .card-slider{
+        gap: 24px;
+    }
+
+    .our-project-top-part {
+        position: relative;
+        top: -148px;
+        gap: 35px;
+        display: flex;
+        left: -28px;
+        flex-direction: column;
+    }
+
+    .text_2 h2 {
+        font-size: 15px !important;
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .frame3 .div-2 {
+        display: inline-flex;
+        align-items: flex-start;
+        gap: 24px;
+        position: relative;
+        flex: 0 0 auto;
+        padding-bottom: 0 !important;
+        margin-top: 116px;
+    }
+
+    .Postlar {
+        gap: 20px !important;
+        transform: none !important;
+        padding-bottom: 0 !important;
+    }
+}
